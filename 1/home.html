@@ -1,117 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wonder Mouth Music </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div id="loading">
-        <div id="spinner"></div>
-    </div>
-    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
-    <div id="title">Wonder Mouth Music </div><br>
-    <div id="links">
-        <a href="../index.html"> Home </a>
-        <a href="#skills">Services    </a>
-        <a href="#work">Prices    </a>
-        <a href="#contact">Contact  </a>
-    </div>
-    </div>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Wonder Mouth Music  </title>
+      <meta name="Wonder Mouth Music" content="">
+      <meta name="Studio and Artist Support System " content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- awesome fontfamily -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="" /></div>
+      </div>
+      <!-- end loader -->
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a  href="../index.html">Cafe </a>
+         <a href="Home.html">Home </a>
+         <a href="about.html">About</a>
+         <a href="searvices.html">Services</a>
+        
+         <a href="../contact.html">Contact</a>
+    
+      </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="head-top">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-sm-3">
+                     <div style="border-radius: 50%; opacity: 58%;" class="logo">
+                        <a href="index.html"><img src="../logo.PNG" /></a>
+                     </div>
+                  </div>
+                  <div class="col-sm-9">
+                     <ul class="email text_align_right">
+                        <li class="d_none"> <a href="javascript:void(0)"><i class="fa fa-" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header -->
+      <!-- start slider section -->
+      <div id="top_section" class=" banner_main">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="airmic">
+                     <h1>Wonder Mouth Music  </h1>
+                     <p>At Wonder Mouth Music, we understand that an artist's success often depends on much more than just their musical talent.
+                        From bookings and promotions to contract negotiations and brand development, we ensure that artists have the support they need to reach their full potential
+                     </p>
+                     <a class="read_more" href="Javascript:void(0)"> In House  Studio   </a>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="mic_img">
+                     <figure></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end slider section -->
+      <!-- services -->
+      <div class="services">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>Our Services</h2>
+                     <p>Our experienced team of engineers and producers work tirelessly to ensure that your sound is as unique as your artistry.
+                    </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="service_img text_align_center">
+                     <i><img src="images/service1.png" alt="#"/></i>
+                  </div>
+                  <div class="service_text text_align_center">
+                     <h3>Artist  Management </h3>
+                     <p>We believe in the holistic development of musicians and understand that their success is contingent on various factors in addition to their artistic abilities. Our comprehensive musician management services are designed to be the guiding force behind artists, enabling them to navigate the multifaceted and often daunting landscape of the music industry.
 
-    <center>
-    <div id="middle">
-        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
-        Recording Studio In Gwarinpa <br><br> <br>
-            <button class="btn_one"> studio and  support system  </button>
-        </div>
-    </div>
-    </center>
+                        One of the key areas we specialize in is bookings and promotions. We know that getting gigs and effectively promoting them is essential for an artist's growth. Our experienced team works tirelessly to secure the best opportunities for our clients, whether it's live performances at renowned venues, music festivals, or collaborative events. We have a wide network of industry contacts, which helps us curate a tailored approach to maximize an artist's exposure and potential. </p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="service_img text_align_center">
+                     <i><img src="images/service2.png" alt="#"/></i>
+                  </div>
+                  <div class="service_text text_align_center">
+                     <h3> Recording Studio Time  </h3>
+                     <p> At Wonder Mouth Music, our state-of-the-art recording studio stands as a sanctuary for artists, a place where their musical dreams are transformed into reality. We understand that a recording studio is not just a space with equipment; it's the canvas upon which artists paint their sonic masterpieces. Our studio is meticulously designed to provide a creative and comfortable environment that fosters inspiration and enables artists to capture their essence and translate it into their music.
 
-    <div id="portfolio">
-             <div id="skills">
-                 <h1>Services </h1>   
-                 <div>
-                        <p>
-                            <h3> </h3> 
-                            <h2 style="color: brown;">Musician Management </h2>
-                            <br>At Wonder Mouth Music, we understand that an artist's success often
-                             depends on much more than just their musical talent. That's why we offer comprehensive musician 
-                             management services, tailor-made to help artists navigate the complexities of the music industry. 
-                             From bookings and promotions to contract negotiations and brand development,
-                             we ensure that artists have the support they need to reach their full potential.
-                             <br><br><br>
-                             <h3></h3>  
-                             <h2 style="color: brown;"> Recording Studio Time  </h2>
-                             Our state-of-the-art recording studio is the canvas on which your musical dreams
-                              come to life. We provide a creative and comfortable environment where artists can
-                               capture their essence and translate it into their music. Our experienced team of engineers and producers
-                              work tirelessly to ensure that your sound is as unique as your artistry.
-
-                 </div>   <br><br><br>
-                 <h2 style="color: brown;">Music Video Production 
-                     </h2>  
-                     Music videos are the visual poetry that accompanies your auditory masterpiece.
-                      Our in-house video production team is dedicated to crafting captivating 
-                     music videos that tell your story, visually enhancing your music and expanding your reach.
-                 <br>
-                 </div> 
-             </div>
-         
-              <div id="work">
-                 <h1>Prices </h1>
-
-                 <div class="project">
-                    <h2 style="color: brown;">Studio Prices 
-                    </h2> 
-                 <div>3 Hours \ 50k 
-                    <br>
-                    1.5 Hours \ 35k 
-                    <br>
-                    Mixing & Mastering \ 20k 
-                    <br>
-                    1 Hour no Mixing & Mastering  \ 15k 
-                 </div>
-               
-                </div>
-
-                <div class="project">
-                    <h2 style="color: brown;">Music Video Recording Price 
-                    </h2> 
-                 <div>We work with your budget 
-                 </div>
-                
-                </div>
-
-                <div class="project">
+                        The heart of our recording studio is our experienced team of engineers and producers who are not just technicians but artists themselves. They understand that the recording process is not merely a technical endeavor but a deeply creative one. Their passion and dedication are evident in every note, every instrument, and every vocal that is recorded within our studio's walls. Their extensive knowledge and expertise enable them to bring out the best in every artist, pushing boundaries and helping to create a sound that is as unique as the artist's individual artistry.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
                   
-                    </div>
-                   
-                   </div> 
-             </div>
-         
-              <div id="contact">
-                 <h1>contact.</h1> 
-                 <form>
-                     <input type="text" placeholder="name" required>
-                     <input type="email" placeholder="email" required><br>
-                     <textarea placeholder="your message" required rows="5"></textarea><br>
-                     <button class="btn_one">send</button>
-                 </form> 
-                 <div id="details">
-                   
-                 </div>   
-             </div>
-    </div>
-    <div id="footer">
-        Wonder Mouth Music  <br><br> <a href="">Unlocking Your Musical Potential</a>
-    </div>
-<script src="index.js" type="text/javascript"></script>
-</body>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end services -->
+      <!-- about -->
+      <div id="about" class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="titlepage text_align_left">
+                     <h2>About Us</h2>
+                     <p> Wonder Mouth Music is dedicated to providing artists with the comprehensive support they need to reach their full potential. We go beyond the conventional roles of management and act as partners, advocates, and mentors. Our ultimate goal is to empower artists to focus on their craft, knowing that we have their back when it comes to the business aspects of their music careers. With us, artists can take their artistry to new heights, knowing that they are in capable hands every step of the way.  </p>
+                     <a class="read_more" href="about.html">Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_img">
+                     <figure><img class="img_responsive" src="p2.jpg" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
+      
+     
+      <!-- footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <a class="logo_footer"><img src="../logo.PNG" alt="#"/></a>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="Informa conta">
+                        <h3>Location </h3>
+                        <ul>
+                           <li> Big Ideas Plaza Rooftop, 69 Road, Gwarimpa Abuja
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="Informa helpful">
+                        <ul>
+                            <a  href="../index.html">Cafe </a>
+                            <a href="Home.html">Home </a>
+                            <a href="about.html">About</a>
+                            <a href="searvices.html">Services</a>
+                           
+                            <a href="../contact.html">Contact</a>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="Informa conta">
+                        <h3>Contact Us</h3>
+                        <ul>
+                           <li> <a href="Javascript:void(0)"> 
+                              </a>
+                           </li>
+                           <li> <a href="Javascript:void(0)">  wondermouthcafe@gmail.com
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <ul class="social_icon text_align_center">
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="Informa">
+                        <h3>Newsletter</h3>
+                        <form class="newslatter_form">
+                           <input class="ente" placeholder="Enter your email" type="text" name="Enter your email">
+                           <button class="subs_btn">Subscribe</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright text_align_center">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-10 offset-md-1">
+                        <p>© 2023 All Rights Reserved  by  <a href=>Wonder Mouth Music </a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
 </html>
